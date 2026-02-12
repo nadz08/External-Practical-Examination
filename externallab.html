@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Cards</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #cb2f2f;
+            margin: 0;
+            padding: 20px;
+
+            display: flex;
+            justify-content: center;   
+        }
+
+        .card-container {
+            display: flex;            
+            flex-direction: row;     
+            gap: 20px;               
+        }
+
+        .profile-card {
+            background: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+
+            display: flex;
+            flex-direction: column;   
+            align-items: center;      
+        }
+
+        .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .student-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .course {
+            color: #e7d2d2;
+            margin-bottom: 10px;
+        }
+
+        .info {
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="card-container">
+
+        <div class="profile-card">
+            <div class="avatar">BB</div>
+            <div class="student-name">bhavya bhatnagar </div>
+            <div class="course">B.Tech Computer Science</div>
+            <div class="info">
+                <p>Roll No: 5418</p>
+                <p>Email: bhavya224@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="profile-card">
+            <div class="avatar">SS</div>
+            <div class="student-name">Siddharth Singh</div>
+            <div class="course">B.Tech Electrical Engineering</div>
+            <div class="info">
+                <p>Roll No: 5217</p>
+                <p>Email: siddharth112@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="profile-card">
+            <div class="avatar">HG</div>
+            <div class="student-name">Harshita gupta</div>
+            <div class="course">B.Tech Chemical Engineering</div>
+            <div class="info">
+                <p>Roll No: 5103</p>
+                <p>Email: harshitagupta@gmail.com</p>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
